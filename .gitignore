@@ -1,0 +1,8 @@
+# Ignore node_modules and OS/system files
+node_modules/
+.DS_Store
+*.png
+*.log
+target/
+.env
+
