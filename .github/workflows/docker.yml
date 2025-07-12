@@ -19,10 +19,9 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
-    - name: Build and Push Frontend Docker Image
+    - name: Build and Push Frontend Image
       uses: docker/build-push-action@v5
       with:
-        context: ./my-frontend-app
+        context: ./newfrontend  
         push: true
-        tags: radhikasen/my-frontend-app:latest
-
+        tags: radhikadebug/TabCuraFrontend:latest
