@@ -24,4 +24,4 @@ jobs:
       with:
         context: ./newfrontend  
         push: true
-        tags: radhikadebug/TabCuraFrontend:latest
+        tags: radhikadebug/tabcurafrontend:latest
